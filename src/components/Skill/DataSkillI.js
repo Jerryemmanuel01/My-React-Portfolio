@@ -1,0 +1,58 @@
+export default [
+  {
+    id: 1,
+    NowImg: require("../../images/HTML5Image.png"),
+    Nowname: "HTML5",
+    LearningImg: require("../../images/PHPImage.png"),
+    LeaningName: "PHP",
+  },
+  {
+    id: 2,
+    NowImg: require("../../images/CSSImage.png"),
+    Nowname: "CSS3",
+    LearningImg: require("../../images/NodejsImage.png"),
+    LeaningName: "NODEJS",
+  },
+  {
+    id: 3,
+    NowImg: require("../../images/ReactImage.png"),
+    Nowname: "REACT",
+    LearningImg: require("../../images/PythonImage.png"),
+    LeaningName: "PYTHON",
+  },
+  {
+    id: 4,
+    NowImg: require("../../images/JavaScriptImage.png"),
+    Nowname: "JAVASCRIPT",
+    LearningImg: require("../../images/MongodbImage.png"),
+    LeaningName: "MONGODB",
+  },
+  {
+    id: 5,
+    NowImg: require("../../images/BootstrapImage.png"),
+    Nowname: "BOOTSTRAP",
+    LearningImg: require("../../images/MySQLImage.png"),
+    LeaningName: "MYSQL",
+  },
+  {
+    id: 6,
+    NowImg: require("../../images/SASSImage.png"),
+    Nowname: "SASS",
+    LearningImg: require("../../images/C++Image.png"),
+    LeaningName: "C++",
+  },
+  {
+    id: 7,
+    NowImg: require("../../images/GitImage.png"),
+    Nowname: "GIT",
+    LearningImg: require("../../images/FlutterImage.png"),
+    LeaningName: "FLUTTER",
+  },
+  {
+    id: 8,
+    NowImg: require("../../images/TailwindImages.png"),
+    Nowname: "TAILWIND",
+    LearningImg: require("../../images/FirebaseImage.png"),
+    LeaningName: "FIREBASE",
+  },
+];
