@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/My-React-Portfolio/static/css/main.d658b28e.css",
+    "main.js": "/My-React-Portfolio/static/js/main.be07197a.js",
+    "static/media/ComputerImage.jpg": "/My-React-Portfolio/static/media/ComputerImage.852f8a34faabc1f27927.jpg",
+    "static/media/MyPics2.png": "/My-React-Portfolio/static/media/MyPics2.5c397128acb7b5b47ded.png",
+    "static/media/swiftlogo.png": "/My-React-Portfolio/static/media/swiftlogo.30280a80f9819484b537.png",
+    "static/media/PHPImage.png": "/My-React-Portfolio/static/media/PHPImage.8310455cd377b2344633.png",
+    "static/media/BootstrapImage.png": "/My-React-Portfolio/static/media/BootstrapImage.747cef3431aef967d6c2.png",
+    "static/media/CV.pdf": "/My-React-Portfolio/static/media/CV.da18297e608899c92912.pdf",
+    "static/media/CSSImage.png": "/My-React-Portfolio/static/media/CSSImage.c230e7429310ef3af263.png",
+    "static/media/TailwindImages.png": "/My-React-Portfolio/static/media/TailwindImages.a9356528b39dccb7ef63.png",
+    "static/media/MySQLImage.png": "/My-React-Portfolio/static/media/MySQLImage.e51c284ae9dd70bf5c8b.png",
+    "static/media/C++Image.png": "/My-React-Portfolio/static/media/C++Image.3b6859bbc29cabd0836e.png",
+    "static/media/SASSImage.png": "/My-React-Portfolio/static/media/SASSImage.4611556b6cab20305ccf.png",
+    "static/media/FlutterImage.png": "/My-React-Portfolio/static/media/FlutterImage.61b27a26012532079d46.png",
+    "static/media/HandWave.png": "/My-React-Portfolio/static/media/HandWave.f50a31bcfa2f1047e0a1.png",
+    "static/media/NodejsImage.png": "/My-React-Portfolio/static/media/NodejsImage.5b2b63acab814bf34407.png",
+    "static/media/SadFace.png": "/My-React-Portfolio/static/media/SadFace.e5caf1698927689c1f84.png",
+    "static/media/JavaScriptImage.png": "/My-React-Portfolio/static/media/JavaScriptImage.b93a28582903a5ce2b57.png",
+    "static/media/ReactImage.png": "/My-React-Portfolio/static/media/ReactImage.97036be6955186248d3d.png",
+    "static/media/GitImage.png": "/My-React-Portfolio/static/media/GitImage.3b9dbc4f2c3975f08cee.png",
+    "static/media/PythonImage.png": "/My-React-Portfolio/static/media/PythonImage.f71350d33457a2f96f98.png",
+    "index.html": "/My-React-Portfolio/index.html",
+    "main.d658b28e.css.map": "/My-React-Portfolio/static/css/main.d658b28e.css.map",
+    "main.be07197a.js.map": "/My-React-Portfolio/static/js/main.be07197a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d658b28e.css",
+    "static/js/main.be07197a.js"
+  ]
+}
