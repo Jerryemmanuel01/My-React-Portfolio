@@ -9,7 +9,6 @@ import {
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Mypics from "../../images/MyPics2.png";
 import Hand from "../../images/HandWave.png";
-import Navbar from "../Navbar/Navbar";
 import CV from "../../assets/CV.pdf";
 
 export default function Home() {
@@ -26,7 +25,7 @@ export default function Home() {
               <h5 className="dev-info">
                 Hi, I'm Dominic Jerryemmanuel. A passionate <br />
                 Front-End React Developer based in Enugu, <br />
-                Nigeria.{" "}
+                Nigeria.
               </h5>
 
               <div className="cv--main">

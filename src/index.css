@@ -473,6 +473,7 @@ input,textarea{
         left: 25px;
     }
     .checkbtn{
+        color: var(--black);
         display: block;
         position: absolute;
         top: 20px;
@@ -490,7 +491,7 @@ input,textarea{
         position: absolute;
         z-index: 1;
         margin:0;
-        top: -100%;
+        top: -120%;
         left: 0;
         transition: var(--transition);
         width: 100%;
