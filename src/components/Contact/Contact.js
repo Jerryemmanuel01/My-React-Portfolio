@@ -36,7 +36,7 @@ export default function Contact(){
             <FontAwesomeIcon icon={faWhatsapp} className="contact--icon" />
             <p className="card--txt">+234-810-2363-720</p>
             <a
-              href="https://api.whatsapp.com/send?phone=08102363720"
+              href="https://api.whatsapp.com/send?phone=+2348102363720"
               target="_blank"
             >
               Send a message
