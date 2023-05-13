@@ -491,7 +491,7 @@ input,textarea{
         position: absolute;
         z-index: 1;
         margin:0;
-        top: -120%;
+        top: -110%;
         left: 0;
         transition: var(--transition);
         width: 100%;
