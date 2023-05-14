@@ -5,22 +5,36 @@ import { faXmark, faBars, } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar() {
-  // const [ischecked, setIschecked] = useState(true);
-  var ischecked = false
+  const [ischecked, setIschecked] = useState(false);
   return (
     <div className="nav--main">
+      <Link to="/">
+        <img src={Logo} className="logo--img" width="30px" />
+      </Link>
       
-      <img src={Logo} className="logo--img" width="30px" />
       <input type="checkbox" id="check" />
-      <label htmlFor="check">
-        {ischecked ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} className="checkbtn"/>}
-      </label>
-      <ul className="navbar--nav"
-          onClick={() => {
-            ischecked = document.getElementById("check")
-            ischecked.checked = false
-          }}
+      <label htmlFor="check"
+      onClick ={() =>
+          setIschecked((prev) => !prev )
+        }
       >
+        {ischecked ? (
+          <FontAwesomeIcon icon={faXmark} className="checkbtn" />
+        ) : (
+          <FontAwesomeIcon icon={faBars} className="checkbtn" />
+        )}
+        
+      </label>
+      <ul
+        className="navbar--nav"
+        onClick={() => {
+          var isChecked;
+          isChecked = document.getElementById("check");
+          isChecked.checked = false;
+          setIschecked(false);
+        }}
+      >
+        
         <Link to="/" className="navlink">
           <li>Home</li>
         </Link>
@@ -37,7 +51,7 @@ export default function Navbar() {
           <li>Contact</li>
         </Link>
       </ul>
-      
+
       {/* <button className="mobile-menu-icon"
         onClick={() => setIsMobile(!isMobile)}
       >

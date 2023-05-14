@@ -1,5 +1,7 @@
 import React from "react";
 import CpImage from "../../images/ComputerImage.jpg";
+import { faAward, faUsers, faFolderClosed} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function About() {
   return (
@@ -28,7 +30,26 @@ export default function About() {
               </p>
             </div>
           </div>
-          <p></p>
+
+          <div className="about--card--main">
+            <div className="about--card">
+              <FontAwesomeIcon icon={faAward} />
+              <p className="ab--card--head">Experience</p>
+              <p className="ab--card--txt">3+ Years Working</p>
+            </div>
+
+            <div className="about--card">
+              <FontAwesomeIcon icon={faUsers} />
+              <p className="ab--card--head">Clients</p>
+              <p className="ab--card--txt">50+ Worldwide</p>
+            </div>
+
+            <div className="about--card">
+              <FontAwesomeIcon icon={faFolderClosed} />
+              <p className="ab--card--head">Projects</p>
+              <p className="ab--card--txt">30+ Completed</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

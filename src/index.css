@@ -70,20 +70,18 @@ body{
 .user-pic--main{
     width: 250px;
 	height: 250px;
-    aspect-ratio: 1/1;
     margin-left: 2.5rem;
-    box-shadow: 0px 0px 7px var(--darkergray);
-    border-radius: 30px;
-    background-image: linear-gradient(to bottom right, var(--darkgray), var(--genColor));
+   
 }
 .user--pic{
     background-image: linear-gradient(to bottom left, var(--darkgray), var(--genColor));
     width: 100%;
     height: 100%;
 	overflow: hidden;
-    border-radius: 30px;
-    transform: rotate(10deg);
+    border-radius:70px 0;
+    /* transform: rotate(10deg);
     transition: var(--transition);
+    position:relative; */
 }
 .user--pic:hover{
     transform: rotate(0deg);
@@ -127,6 +125,14 @@ body{
     color: var(--genColor);
     transform: var(--transform)
 }
+.socia--handles--icon a{
+    text-decoration: none;
+    color: var(--black);
+    transition: var(--transition);
+}
+.socia--handles--icon a:hover{
+    color: var(--white);
+}
 /* ------NAVBAR PAGE ------ */
 
 .nav--main{
@@ -161,41 +167,7 @@ body{
 .navlink:hover{
     color: var(--darkergray);
 }
-/* .mobile-menu-icon{
-    display: block;
-} */
-/* .nav--link--mobile{
-    position: absolute;
-    display: block;
-    background-color: var(--darkgray);
-    left: 0;
-    top: 75px;
-    width: 100%; */
-    /* height: 100vh; */
-    /* z-index: 1; */
-    /* color: var(--white);
-    transition: var(--transition); */
 
-/*     
-    .navlink{
-        color: var(--white);
-        text-align: center;
-        padding: 32px;
-        width: 100%;
-        transition: var(--transition);
-    }
-    .mobile-menu-icon{
-        display: visible;
-        position: absolute;
-        font-size: 4rem;
-        outline: none;
-        border: none;
-        top: 15px;
-        right: 25px;
-        color: white;
-        background-color: #000000;
-    } */
-/* } */
 
 
 /* ------ERROR PAGE----- */
@@ -290,6 +262,46 @@ body{
     margin-top: 1rem;
     font-size: 14px;
 }
+.about--card--main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    gap: 3rem;
+}
+
+.about--card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: auto;
+    padding: 1.5rem;
+    background-color: var(--gray);
+    border-radius: 10px;
+    transition: var(--transition);
+}
+.about--card:hover{
+    background: transparent;
+    border: 1px solid var(--darkgray);
+}
+.ab--card--head{
+    margin-top: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ab--card--txt{
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+
+/* ------SKILL PAGE------ */
+
 .skill-head-txt{
     margin-top: 3rem;   
 }
@@ -478,7 +490,7 @@ input,textarea{
         position: absolute;
         top: 20px;
         right: 25px;
-        z-index: 1;
+        z-index: 10;
     }
     .nav--main{
         display: block;
@@ -499,7 +511,7 @@ input,textarea{
         background: var(--gray);
     }
     #check:checked ~ ul{
-        top:50px;
+        top:0px;
     }
     .navlink{
         margin-top: 50px;
@@ -517,10 +529,20 @@ input,textarea{
         width: auto;
         height: auto;
     }
+    .about--card--main{
+        display: block;
+        padding-bottom: 5rem;
+        /* margin-bottom: 5rem; */
+
+    }
+    .about--card{
+        margin-top: 1rem;
+        width: auto;
+    }
     .about--info{
         width: auto;
         margin-top: 2rem;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
     }
     .contact--main{
         display: block;
