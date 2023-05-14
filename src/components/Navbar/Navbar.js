@@ -44,7 +44,7 @@ export default function Navbar() {
         <Link to="skills" className="navlink">
           <li>Skills</li>
         </Link>
-        <Link to="#" className="navlink">
+        <Link to="portfolio" className="navlink">
           <li>Portfolio</li>
         </Link>
         <Link to="Contact" className="navlink">
